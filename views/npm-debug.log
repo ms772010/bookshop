@@ -1,0 +1,160 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData mongodb
+20 silly mapToRegistry name mongodb
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'mongodb',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'mongodb',
+23 silly mapToRegistry   name: 'mongodb',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/mongodb
+25 verbose request uri https://registry.npmjs.org/mongodb
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 14:37:26
+28 verbose request id 0b32f1c10c19f8af
+29 verbose etag W/"5955a149-9819b"
+30 verbose lastModified Fri, 30 Jun 2017 00:54:33 GMT
+31 http request GET https://registry.npmjs.org/mongodb
+32 http 304 https://registry.npmjs.org/mongodb
+33 verbose headers { date: 'Sat, 01 Jul 2017 06:37:43 GMT',
+33 verbose headers   via: '1.1 varnish',
+33 verbose headers   'cache-control': 'max-age=300',
+33 verbose headers   etag: 'W/"5955a149-9819b"',
+33 verbose headers   age: '0',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'x-served-by': 'cache-nrt6133-NRT',
+33 verbose headers   'x-cache': 'HIT',
+33 verbose headers   'x-cache-hits': '1',
+33 verbose headers   'x-timer': 'S1498891063.380015,VS0,VE571',
+33 verbose headers   vary: 'Accept-Encoding' }
+34 silly get cb [ 304,
+34 silly get   { date: 'Sat, 01 Jul 2017 06:37:43 GMT',
+34 silly get     via: '1.1 varnish',
+34 silly get     'cache-control': 'max-age=300',
+34 silly get     etag: 'W/"5955a149-9819b"',
+34 silly get     age: '0',
+34 silly get     connection: 'keep-alive',
+34 silly get     'x-served-by': 'cache-nrt6133-NRT',
+34 silly get     'x-cache': 'HIT',
+34 silly get     'x-cache-hits': '1',
+34 silly get     'x-timer': 'S1498891063.380015,VS0,VE571',
+34 silly get     vary: 'Accept-Encoding' } ]
+35 verbose etag https://registry.npmjs.org/mongodb from cache
+36 verbose get saving mongodb to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\mongodb\.cache.json
+37 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+38 silly fetchNamedPackageData No valid target from cache, forcing network
+39 verbose request uri https://registry.npmjs.org/mongodb
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 14:37:27
+42 http request GET https://registry.npmjs.org/mongodb
+43 http 200 https://registry.npmjs.org/mongodb
+44 verbose headers { server: 'nginx/1.10.3',
+44 verbose headers   'content-type': 'application/json',
+44 verbose headers   'last-modified': 'Fri, 30 Jun 2017 00:54:33 GMT',
+44 verbose headers   etag: 'W/"5955a149-9819b"',
+44 verbose headers   'content-encoding': 'gzip',
+44 verbose headers   'cache-control': 'max-age=300',
+44 verbose headers   'content-length': '36026',
+44 verbose headers   'accept-ranges': 'bytes',
+44 verbose headers   date: 'Sat, 01 Jul 2017 06:37:44 GMT',
+44 verbose headers   via: '1.1 varnish',
+44 verbose headers   age: '0',
+44 verbose headers   connection: 'keep-alive',
+44 verbose headers   'x-served-by': 'cache-nrt6133-NRT',
+44 verbose headers   'x-cache': 'HIT',
+44 verbose headers   'x-cache-hits': '2',
+44 verbose headers   'x-timer': 'S1498891064.129966,VS0,VE0',
+44 verbose headers   vary: 'Accept-Encoding' }
+45 silly get cb [ 200,
+45 silly get   { server: 'nginx/1.10.3',
+45 silly get     'content-type': 'application/json',
+45 silly get     'last-modified': 'Fri, 30 Jun 2017 00:54:33 GMT',
+45 silly get     etag: 'W/"5955a149-9819b"',
+45 silly get     'content-encoding': 'gzip',
+45 silly get     'cache-control': 'max-age=300',
+45 silly get     'content-length': '36026',
+45 silly get     'accept-ranges': 'bytes',
+45 silly get     date: 'Sat, 01 Jul 2017 06:37:44 GMT',
+45 silly get     via: '1.1 varnish',
+45 silly get     age: '0',
+45 silly get     connection: 'keep-alive',
+45 silly get     'x-served-by': 'cache-nrt6133-NRT',
+45 silly get     'x-cache': 'HIT',
+45 silly get     'x-cache-hits': '2',
+45 silly get     'x-timer': 'S1498891064.129966,VS0,VE0',
+45 silly get     vary: 'Accept-Encoding' } ]
+46 verbose get saving mongodb to C:\Users\Administrator\AppData\Roaming\npm-cache\registry.npmjs.org\mongodb\.cache.json
+47 verbose correctMkdir C:\Users\Administrator\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+48 silly fetchPackageMetaData Error: No compatible version found: mongodb@3.4.5
+48 silly fetchPackageMetaData Valid install targets:
+48 silly fetchPackageMetaData 2.2.29, 2.2.28, 2.2.27, 2.2.26, 2.2.25, 2.2.24, 2.2.23, 2.2.22, 2.2.21, 2.2.20, 2.2.19, 2.2.18, 2.2.17, 2.2.16, 2.2.15, 2.2.14, 2.2.13, 2.2.12, 2.2.11, 2.2.10, 2.2.9, 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.2.0-alpha2, 2.2.0-alpha1, 2.1.22-alpha4, 2.1.22-alpha3, 2.1.22-alpha2, 2.1.22-alpha, 2.1.21, 2.1.20, 2.1.19, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.1.0-rc1, 2.1.0-alpha, 2.0.55, 2.0.54, 2.0.53, 2.0.52, 2.0.51, 2.0.50, 2.0.49, 2.0.48, 2.0.47, 2.0.46, 2.0.45, 2.0.44, 2.0.43, 2.0.42, 2.0.41, 2.0.40, 2.0.39, 2.0.38, 2.0.37, 2.0.36, 2.0.35, 2.0.34, 2.0.33, 2.0.32, 2.0.31, 2.0.30, 2.0.29, 2.0.28, 2.0.27, 2.0.26, 2.0.25, 2.0.24, 2.0.23, 2.0.22, 2.0.21, 2.0.20, 2.0.19, 2.0.18, 2.0.17, 2.0.16, 2.0.15, 2.0.14, 2.0.13, 2.0.12, 2.0.11, 2.0.10, 2.0.9, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 2.0.0-alpha2, 2.0.0-alpha1, 1.4.40, 1.4.39, 1.4.38, 1.4.37, 1.4.36, 1.4.35, 1.4.34, 1.4.33, 1.4.32, 1.4.31, 1.4.30, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc9, 1.4.0-rc8, 1.4.0-rc7, 1.4.0-rc6, 1.4.0-rc5, 1.4.0-rc4, 1.4.0-rc3, 1.4.0-rc2, 1.4.0-rc10, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.19, 1.3.18, 1.3.17, 1.3.15, 1.3.14, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.14, 1.2.13, 1.2.12, 1.2.11, 1.2.10, 1.2.9, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.11, 1.1.10, 1.1.9, 1.1.8, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-beta, 1.0.2, 1.0.1, 1.0.0, 0.9.9, 0.9.9-8, 0.9.9-7, 0.9.9-6, 0.9.9-5, 0.9.9-4, 0.9.9-3, 0.9.9-2, 0.9.9-1, 0.9.8, 0.9.8-7, 0.9.8-6, 0.9.8-5, 0.9.8-4, 0.9.8-3, 0.9.8-2, 0.9.8-1, 0.9.7, 0.9.7-3-5, 0.9.7-3-4, 0.9.7-3-3, 0.9.7-3-2, 0.9.7-3-1, 0.9.7-2-5, 0.9.7-2-4, 0.9.7-2-3, 0.9.7-2-2, 0.9.7-2-1, 0.9.7-3, 0.9.7-2, 0.9.7-1.4, 0.9.7-1.3, 0.9.7-1.2, 0.9.7-1.1, 0.9.7-1, 0.9.7-0, 0.9.6-23, 0.9.6-22, 0.9.6-21, 0.9.6-20, 0.9.6-19, 0.9.6-18, 0.9.6-17, 0.9.6-16, 0.9.6-15, 0.9.6-14, 0.9.6-13, 0.9.6-12, 0.9.6-11, 0.9.6-10, 0.9.6-9, 0.9.6-8, 0.9.6-7, 0.9.4, 0.9.4-4, 0.9.3, 0.9.2, 0.9.1
+48 silly fetchPackageMetaData
+48 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+48 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+48 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+48 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+48 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+48 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+48 silly fetchPackageMetaData  error for mongodb@3.4.5 { Error: No compatible version found: mongodb@3.4.5
+48 silly fetchPackageMetaData Valid install targets:
+48 silly fetchPackageMetaData 2.2.29, 2.2.28, 2.2.27, 2.2.26, 2.2.25, 2.2.24, 2.2.23, 2.2.22, 2.2.21, 2.2.20, 2.2.19, 2.2.18, 2.2.17, 2.2.16, 2.2.15, 2.2.14, 2.2.13, 2.2.12, 2.2.11, 2.2.10, 2.2.9, 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.2.0-alpha2, 2.2.0-alpha1, 2.1.22-alpha4, 2.1.22-alpha3, 2.1.22-alpha2, 2.1.22-alpha, 2.1.21, 2.1.20, 2.1.19, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.1.0-rc1, 2.1.0-alpha, 2.0.55, 2.0.54, 2.0.53, 2.0.52, 2.0.51, 2.0.50, 2.0.49, 2.0.48, 2.0.47, 2.0.46, 2.0.45, 2.0.44, 2.0.43, 2.0.42, 2.0.41, 2.0.40, 2.0.39, 2.0.38, 2.0.37, 2.0.36, 2.0.35, 2.0.34, 2.0.33, 2.0.32, 2.0.31, 2.0.30, 2.0.29, 2.0.28, 2.0.27, 2.0.26, 2.0.25, 2.0.24, 2.0.23, 2.0.22, 2.0.21, 2.0.20, 2.0.19, 2.0.18, 2.0.17, 2.0.16, 2.0.15, 2.0.14, 2.0.13, 2.0.12, 2.0.11, 2.0.10, 2.0.9, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 2.0.0-alpha2, 2.0.0-alpha1, 1.4.40, 1.4.39, 1.4.38, 1.4.37, 1.4.36, 1.4.35, 1.4.34, 1.4.33, 1.4.32, 1.4.31, 1.4.30, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc9, 1.4.0-rc8, 1.4.0-rc7, 1.4.0-rc6, 1.4.0-rc5, 1.4.0-rc4, 1.4.0-rc3, 1.4.0-rc2, 1.4.0-rc10, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.19, 1.3.18, 1.3.17, 1.3.15, 1.3.14, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.14, 1.2.13, 1.2.12, 1.2.11, 1.2.10, 1.2.9, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.11, 1.1.10, 1.1.9, 1.1.8, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-beta, 1.0.2, 1.0.1, 1.0.0, 0.9.9, 0.9.9-8, 0.9.9-7, 0.9.9-6, 0.9.9-5, 0.9.9-4, 0.9.9-3, 0.9.9-2, 0.9.9-1, 0.9.8, 0.9.8-7, 0.9.8-6, 0.9.8-5, 0.9.8-4, 0.9.8-3, 0.9.8-2, 0.9.8-1, 0.9.7, 0.9.7-3-5, 0.9.7-3-4, 0.9.7-3-3, 0.9.7-3-2, 0.9.7-3-1, 0.9.7-2-5, 0.9.7-2-4, 0.9.7-2-3, 0.9.7-2-2, 0.9.7-2-1, 0.9.7-3, 0.9.7-2, 0.9.7-1.4, 0.9.7-1.3, 0.9.7-1.2, 0.9.7-1.1, 0.9.7-1, 0.9.7-0, 0.9.6-23, 0.9.6-22, 0.9.6-21, 0.9.6-20, 0.9.6-19, 0.9.6-18, 0.9.6-17, 0.9.6-16, 0.9.6-15, 0.9.6-14, 0.9.6-13, 0.9.6-12, 0.9.6-11, 0.9.6-10, 0.9.6-9, 0.9.6-8, 0.9.6-7, 0.9.4, 0.9.4-4, 0.9.3, 0.9.2, 0.9.1
+48 silly fetchPackageMetaData
+48 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+48 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+48 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+48 silly fetchPackageMetaData     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+48 silly fetchPackageMetaData     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+48 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ETARGET' }
+49 silly rollbackFailedOptional Starting
+50 silly rollbackFailedOptional Finishing
+51 silly runTopLevelLifecycles Finishing
+52 silly install printInstalled
+53 verbose stack Error: No compatible version found: mongodb@3.4.5
+53 verbose stack Valid install targets:
+53 verbose stack 2.2.29, 2.2.28, 2.2.27, 2.2.26, 2.2.25, 2.2.24, 2.2.23, 2.2.22, 2.2.21, 2.2.20, 2.2.19, 2.2.18, 2.2.17, 2.2.16, 2.2.15, 2.2.14, 2.2.13, 2.2.12, 2.2.11, 2.2.10, 2.2.9, 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.2.0-alpha2, 2.2.0-alpha1, 2.1.22-alpha4, 2.1.22-alpha3, 2.1.22-alpha2, 2.1.22-alpha, 2.1.21, 2.1.20, 2.1.19, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.1.0-rc1, 2.1.0-alpha, 2.0.55, 2.0.54, 2.0.53, 2.0.52, 2.0.51, 2.0.50, 2.0.49, 2.0.48, 2.0.47, 2.0.46, 2.0.45, 2.0.44, 2.0.43, 2.0.42, 2.0.41, 2.0.40, 2.0.39, 2.0.38, 2.0.37, 2.0.36, 2.0.35, 2.0.34, 2.0.33, 2.0.32, 2.0.31, 2.0.30, 2.0.29, 2.0.28, 2.0.27, 2.0.26, 2.0.25, 2.0.24, 2.0.23, 2.0.22, 2.0.21, 2.0.20, 2.0.19, 2.0.18, 2.0.17, 2.0.16, 2.0.15, 2.0.14, 2.0.13, 2.0.12, 2.0.11, 2.0.10, 2.0.9, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 2.0.0-alpha2, 2.0.0-alpha1, 1.4.40, 1.4.39, 1.4.38, 1.4.37, 1.4.36, 1.4.35, 1.4.34, 1.4.33, 1.4.32, 1.4.31, 1.4.30, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc9, 1.4.0-rc8, 1.4.0-rc7, 1.4.0-rc6, 1.4.0-rc5, 1.4.0-rc4, 1.4.0-rc3, 1.4.0-rc2, 1.4.0-rc10, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.19, 1.3.18, 1.3.17, 1.3.15, 1.3.14, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.14, 1.2.13, 1.2.12, 1.2.11, 1.2.10, 1.2.9, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.11, 1.1.10, 1.1.9, 1.1.8, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-beta, 1.0.2, 1.0.1, 1.0.0, 0.9.9, 0.9.9-8, 0.9.9-7, 0.9.9-6, 0.9.9-5, 0.9.9-4, 0.9.9-3, 0.9.9-2, 0.9.9-1, 0.9.8, 0.9.8-7, 0.9.8-6, 0.9.8-5, 0.9.8-4, 0.9.8-3, 0.9.8-2, 0.9.8-1, 0.9.7, 0.9.7-3-5, 0.9.7-3-4, 0.9.7-3-3, 0.9.7-3-2, 0.9.7-3-1, 0.9.7-2-5, 0.9.7-2-4, 0.9.7-2-3, 0.9.7-2-2, 0.9.7-2-1, 0.9.7-3, 0.9.7-2, 0.9.7-1.4, 0.9.7-1.3, 0.9.7-1.2, 0.9.7-1.1, 0.9.7-1, 0.9.7-0, 0.9.6-23, 0.9.6-22, 0.9.6-21, 0.9.6-20, 0.9.6-19, 0.9.6-18, 0.9.6-17, 0.9.6-16, 0.9.6-15, 0.9.6-14, 0.9.6-13, 0.9.6-12, 0.9.6-11, 0.9.6-10, 0.9.6-9, 0.9.6-8, 0.9.6-7, 0.9.4, 0.9.4-4, 0.9.3, 0.9.2, 0.9.1
+53 verbose stack
+53 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files\nodejs\node_modules\npm\lib\fetch-package-metadata.js:178:16)
+53 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+53 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+53 verbose stack     at saved (C:\Program Files\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+53 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:241:18
+53 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+54 verbose cwd D:\web\views
+55 error Windows_NT 6.1.7601
+56 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+57 error node v6.10.2
+58 error npm  v3.10.10
+59 error code ETARGET
+60 error notarget No compatible version found: mongodb@3.4.5
+60 error notarget Valid install targets:
+60 error notarget 2.2.29, 2.2.28, 2.2.27, 2.2.26, 2.2.25, 2.2.24, 2.2.23, 2.2.22, 2.2.21, 2.2.20, 2.2.19, 2.2.18, 2.2.17, 2.2.16, 2.2.15, 2.2.14, 2.2.13, 2.2.12, 2.2.11, 2.2.10, 2.2.9, 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.2.0-alpha2, 2.2.0-alpha1, 2.1.22-alpha4, 2.1.22-alpha3, 2.1.22-alpha2, 2.1.22-alpha, 2.1.21, 2.1.20, 2.1.19, 2.1.18, 2.1.17, 2.1.16, 2.1.15, 2.1.14, 2.1.13, 2.1.12, 2.1.11, 2.1.10, 2.1.9, 2.1.8, 2.1.7, 2.1.6, 2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.1.0-rc1, 2.1.0-alpha, 2.0.55, 2.0.54, 2.0.53, 2.0.52, 2.0.51, 2.0.50, 2.0.49, 2.0.48, 2.0.47, 2.0.46, 2.0.45, 2.0.44, 2.0.43, 2.0.42, 2.0.41, 2.0.40, 2.0.39, 2.0.38, 2.0.37, 2.0.36, 2.0.35, 2.0.34, 2.0.33, 2.0.32, 2.0.31, 2.0.30, 2.0.29, 2.0.28, 2.0.27, 2.0.26, 2.0.25, 2.0.24, 2.0.23, 2.0.22, 2.0.21, 2.0.20, 2.0.19, 2.0.18, 2.0.17, 2.0.16, 2.0.15, 2.0.14, 2.0.13, 2.0.12, 2.0.11, 2.0.10, 2.0.9, 2.0.8, 2.0.7, 2.0.6, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 2.0.0-alpha2, 2.0.0-alpha1, 1.4.40, 1.4.39, 1.4.38, 1.4.37, 1.4.36, 1.4.35, 1.4.34, 1.4.33, 1.4.32, 1.4.31, 1.4.30, 1.4.29, 1.4.28, 1.4.27, 1.4.26, 1.4.25, 1.4.24, 1.4.23, 1.4.22, 1.4.20, 1.4.19, 1.4.18, 1.4.17, 1.4.16, 1.4.15, 1.4.14, 1.4.12, 1.4.11, 1.4.10, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc9, 1.4.0-rc8, 1.4.0-rc7, 1.4.0-rc6, 1.4.0-rc5, 1.4.0-rc4, 1.4.0-rc3, 1.4.0-rc2, 1.4.0-rc10, 1.3.23, 1.3.22, 1.3.21, 1.3.20, 1.3.19, 1.3.18, 1.3.17, 1.3.15, 1.3.14, 1.3.12, 1.3.11, 1.3.10, 1.3.9, 1.3.8, 1.3.7, 1.3.6, 1.3.5, 1.3.4, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.14, 1.2.13, 1.2.12, 1.2.11, 1.2.10, 1.2.9, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.11, 1.1.10, 1.1.9, 1.1.8, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-beta, 1.0.2, 1.0.1, 1.0.0, 0.9.9, 0.9.9-8, 0.9.9-7, 0.9.9-6, 0.9.9-5, 0.9.9-4, 0.9.9-3, 0.9.9-2, 0.9.9-1, 0.9.8, 0.9.8-7, 0.9.8-6, 0.9.8-5, 0.9.8-4, 0.9.8-3, 0.9.8-2, 0.9.8-1, 0.9.7, 0.9.7-3-5, 0.9.7-3-4, 0.9.7-3-3, 0.9.7-3-2, 0.9.7-3-1, 0.9.7-2-5, 0.9.7-2-4, 0.9.7-2-3, 0.9.7-2-2, 0.9.7-2-1, 0.9.7-3, 0.9.7-2, 0.9.7-1.4, 0.9.7-1.3, 0.9.7-1.2, 0.9.7-1.1, 0.9.7-1, 0.9.7-0, 0.9.6-23, 0.9.6-22, 0.9.6-21, 0.9.6-20, 0.9.6-19, 0.9.6-18, 0.9.6-17, 0.9.6-16, 0.9.6-15, 0.9.6-14, 0.9.6-13, 0.9.6-12, 0.9.6-11, 0.9.6-10, 0.9.6-9, 0.9.6-8, 0.9.6-7, 0.9.4, 0.9.4-4, 0.9.3, 0.9.2, 0.9.1
+61 error notarget This is most likely not a problem with npm itself.
+61 error notarget In most cases you or one of your dependencies are requesting
+61 error notarget a package version that doesn't exist.
+61 error notarget
+61 error notarget It was specified as a dependency of 'web'
+62 verbose exit [ 1, true ]

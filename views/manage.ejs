@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>manage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">  
+<style>
+ body {
+	padding-top: 50px;
+    padding-left: 50px;
+}
+</style>
+
+
+</head>
+<body>
+	
+<div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="/">图书销售</a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/"><span class="glyphicon glyphicon-home"></span> 主页</a></li>
+				<li><a href="shop"><span class="glyphicon glyphicon-shopping-cart"></span> 商店</a></li>
+				<li><a href="#support"><span class="glyphicon glyphicon-headphones"></span> 支持</a></li>
+				<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-wrench"></span>
+					管理
+					<b class="caret"></b>
+				</a>
+				<ul class="dropdown-menu">
+					<li><a href="login">管理员登录</a></li>
+					<li><a href="manage">管理图书</a></li>
+					<li class="divider"></li>
+					<li><a href="infos">显示图书余量</a></li>
+					<li class="divider"></li>
+					<li><a href="#">登出</a></li>
+				</ul>
+			</li>
+			</ul>
+		</div><!-- /.nav-collapse -->
+	</div><!-- /.container -->
+</div>
+
+<div class="row row-margin-top">
+<table class="table table-striped">
+  <caption>图书信息</caption>
+  <thead>
+    <tr>
+    <th>id</th>
+      <th>名称</th>
+      <th>余量</th>
+      <th>价格</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% Books.forEach(function(Book){ %>
+    <tr>
+		<td><%= Book._id %></td>
+		<td><%= Book.name %></td>
+		<td><%= Book.price %></td>
+		<td><%= Book.amount %></td>
+		<td><button type="button" class="btn btn-default" onclick="javascript:location.href='delete/<%= Book.name%>'" >删除</button>
+		<td><button type="button" class="btn btn-default" onclick="javascript:location.href='updat/<%= Book.name%>'" >更新</button>
+     </tr>
+    <% }); %>
+   		
+    </tr>
+   
+  </tbody>
+</table>
+</div>
+<button type="button" class="btn btn-default" onclick="javascript:location.href='ad'" >添加</button>
+<!-- jQuery (Bootstrap 插件需要引入) -->
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- 包含了所有编译插件 -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+</body>
+</html>
